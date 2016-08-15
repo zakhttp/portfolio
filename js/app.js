@@ -18,8 +18,8 @@ var profileData = {
     'php',
     'laravel',
   ],
-  bio: '',
-  tagline: '',
+  bio: "I am a tech and web technologies enthusiast. In love with javascript and it's prototypal OOP approach. ",
+  tagline: 'I do what i do for love. Anything else is a reduction of my humanity.',
   quotes: [
     {
       quote: "I don't go on dates. I don't go clubbing. I don't care about celebrity hookups or which sports team just won. My universe exists entirely within computers.",
