@@ -4,86 +4,218 @@
 <head>
   <meta charset="utf-8">
   <title>Portfolio Zakaria Benbakkar</title>
-
   <!-- Compiled and minified Materialize CSS -->
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.7/css/materialize.min.css">
   <link href="http://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css" rel="stylesheet">
-
-
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans|Russo+One|Arrapey" rel="stylesheet">
+  <link rel="stylesheet" href="css/master.css" media="screen" title="no title" charset="utf-8">
 </head>
 
-<body>
-  <nav>
-    <div class="nav-wrapper container">
-      <a href="#!" class="brand-logo"><i class="icon ion-erlenmeyer-flask-bubbles"></i></a>
-      <a href="#" data-activates="side-nav" class="button-collapse"><i class="icon ion-android-add"></i></a>
-      <ul class="right hide-on-med-and-down">
-        <li><a href="#about">ABOUT</a></li>
-        <li><a href="#skills">SKILLS</a></li>
-        <li><a href="#work">WORK</a></li>
-        <li><a href="#"><i class="icon ion-social-github"></i></a></li>
-        <li><a href="#"><i class="icon ion-social-twitter"></i></a></li>
-      </ul>
-      <ul class="side-nav center" id="side-nav">
-        <!-- <li><a href="#"><i class="icon ion-social-github"></i></a></li>
-        <li><a href="#"><i class="icon ion-social-twitter"></i></a></li> -->
-        <li>
-          <a href="#"></i>ABOUT</a>
-        </li>
-        <li>
-          <a href="#"></i>SKILLS</a>
-        </li>
-        <li>
-          <a href="#"></i>WORK</a>
-        </li>
+<body class="blue-grey-text text-darken-1">
+  <div>
+    <nav class="cyan" role="navigation">
+      <div class="nav-wrapper container">
+        <a href="#!" class="brand-logo"><i class="icon ion-erlenmeyer-flask-bubbles"></i></a>
+        <a href="#" data-activates="side-nav" class="button-collapse"><i class="icon ion-android-add"></i></a>
+        <ul class="right hide-on-med-and-down">
+          <li><a href="#bio">About</a></li>
+          <li><a href="#skills">Skills</a></li>
+          <li><a href="#work">Work</a></li>
+          <li><a href="https://github.com/zakhttp" target="_blank"><i class="icon ion-social-github"></i></a></li>
+          <li><a href="https://twitter.com/zakhttp" target="_blank"><i class="icon ion-social-twitter"></i></a></li>
+        </ul>
+        <ul class="side-nav center" id="side-nav">
+          <!-- <li><a href="#"><i class="icon ion-social-github"></i></a></li>
+          <li><a href="#"><i class="icon ion-social-twitter"></i></a></li> -->
+          <div class="section">
+            <li>
+              <a href="#">About</a>
+            </li>
+            <li>
+              <a href="#">Skills</a>
+            </li>
+            <li>
+              <a href="#">Work</a>
+            </li>
+          </div>
+        </ul>
+      </div>
+    </nav>
+  </div>
 
-      </ul>
-    </div>
-  </nav>
-  <div class="divider"></div>
+  <div class="section container" id="bio">
+    <div class="row">
+      <div class="col s12 m4 l4 center">
+        <img class="circle responsive-img" width="300px" src="images/zakaria-profile-web.png" alt="" />
 
-  <div class="valign-wrapper" id="bio">
-    <div class="container">
-      <h1 class="header">John Doe</h1>
-      <p>
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor
-        in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-      </p>
+      </div>
+      <div class="col s12 m8 l8">
+        <h1 class="header blue-grey-text text-darken-3 center">Zak Sudo</h1>
+        <p>
+          I am a tech and web technologies enthusiast. In love with javascript and it's prototypal OOP approach.
+        </p>
+        <blockquote>
+          I don't go on dates. I don't go clubbing. I don't care about celebrity hookups or which sports team just won. My universe exists entirely within computers. <em>L$user, Algorithm: The Hacker Movie</em>
+        </blockquote>
+      </div>
     </div>
   </div>
   <div class="divider"></div>
-
-  <div class="container" id="skills">
-    <h2>Skills</h2>
+  <div class="section container center" id="skills">
+    <h2 class="blue-grey-text text-darken-3">Skills</h2>
     <div class="row">
       <div class="center col s12 m6 l3">
-        <i class="large icon ion-social-html5"></i>
-        <h5>HTML</h3>
+        <i class="large icon ion-social-html5 orange-text text-darken-3"></i>
+        <h5>HTML</h5>
       </div>
       <div class="center col s12 m6 l3">
-        <i class="large icon ion-social-css3"></i>
-        <h5>CSS</h3>
+        <i class="large icon ion-social-css3 light-blue-text"></i>
+        <h5>CSS</h5>
       </div>
       <div class="center col s12 m6 l3">
-        <i class="large icon ion-social-javascript"></i>
-        <h5>JAVASCRIPT</h3>
+        <i class="large icon ion-social-javascript yellow-text"></i>
+        <h5>JAVASCRIPT</h5>
       </div>
       <div class="center col s12 m6 l3">
-        <i class="large icon ion-social-nodejs"></i>
-        <h5>NODE JS</h3>
+        <i class="large icon ion-social-nodejs light-green-text"></i>
+        <h5>NODE JS</h5>
       </div>
     </div>
   </div>
   <div class="divider"></div>
-
-
-
-
-
-
-
+  <div class="section container center" id="work">
+    <h2 class="blue-grey-text text-darken-3">Work</h2>
+    <div class="row">
+      <div class="col s12 m6 l4">
+        <div class="card hoverable">
+          <div class="card-image waves-effect waves-light waves-block">
+            <img class="activator" src="images/project-placer-image.jpg" alt="project placer" />
+          </div>
+          <div class="card-content">
+            <span class="card-title activator grey-text text-darken-4">
+          Project title
+          <i class="icon ion-android-more-vertical right"> </i>
+        </span>
+            <p>
+              test
+            </p>
+          </div>
+          <div class="card-reveal">
+            <span class="card-title grey-text text-darken-4">
+          Project title
+          <i class="icon ion-android-close right"> </i>
+        </span>
+            <p>
+              Project decription
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="col s12 m6 l4">
+        <div class="card hoverable">
+          <div class="card-image waves-effect waves-light waves-block">
+            <img class="activator" src="images/project-placer-image.jpg" alt="project placer" />
+          </div>
+          <div class="card-content">
+            <span class="card-title activator grey-text text-darken-4">
+          Project title
+          <i class="icon ion-android-more-vertical right"> </i>
+        </span>
+            <p>
+              test
+            </p>
+          </div>
+          <div class="card-reveal">
+            <span class="card-title grey-text text-darken-4">
+          Project title
+          <i class="icon ion-android-close right"> </i>
+        </span>
+            <p>
+              Project decription
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="col s12 m6 l4">
+        <div class="card hoverable">
+          <div class="card-image waves-effect waves-light waves-block">
+            <img class="activator" src="images/project-placer-image.jpg" alt="project placer" />
+          </div>
+          <div class="card-content">
+            <span class="card-title activator grey-text text-darken-4">
+          Project title
+          <i class="icon ion-android-more-vertical right"> </i>
+        </span>
+            <p>
+              test
+            </p>
+          </div>
+          <div class="card-reveal">
+            <span class="card-title grey-text text-darken-4">
+          Project title
+          <i class="icon ion-android-close right"> </i>
+        </span>
+            <p>
+              Project decription
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="col s12 m6 l4">
+        <div class="card hoverable">
+          <div class="card-image waves-effect waves-light waves-block">
+            <img class="activator" src="images/project-placer-image.jpg" alt="project placer" />
+          </div>
+          <div class="card-content">
+            <span class="card-title activator grey-text text-darken-4">
+          Project title
+          <i class="icon ion-android-more-vertical right"> </i>
+        </span>
+            <p>
+              test
+            </p>
+          </div>
+          <div class="card-reveal">
+            <span class="card-title grey-text text-darken-4">
+          Project title
+          <i class="icon ion-android-close right"> </i>
+        </span>
+            <p>
+              Project decription
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="col s12 m6 l4">
+        <div class="card hoverable">
+          <div class="card-image waves-effect waves-light waves-block">
+            <img class="activator" src="images/project-placer-image.jpg" alt="project placer" />
+          </div>
+          <div class="card-content">
+            <span class="card-title activator grey-text text-darken-4">
+          Project title
+          <i class="icon ion-android-more-vertical right"> </i>
+        </span>
+            <p>
+              test
+            </p>
+          </div>
+          <div class="card-reveal">
+            <span class="card-title grey-text text-darken-4">
+          Project title
+          <i class="icon ion-android-close right"> </i>
+        </span>
+            <p>
+              Project decription
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
   <!-- Compiled and minified Jquery -->
-  <script src="https://code.jquery.com/jquery-2.2.4.min.js" integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44=" crossorigin="anonymous"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js">
+  </script>
   <!-- Compiled and minified Materialize CSS -->
   <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.7/js/materialize.min.js"></script>
   <script type="text/javascript" src="js/app.js">
