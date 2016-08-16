@@ -7,15 +7,15 @@
   <!-- Compiled and minified Materialize CSS -->
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.7/css/materialize.min.css">
   <link href="http://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css" rel="stylesheet">
-  <link href="https://fonts.googleapis.com/css?family=Open+Sans|Russo+One|Arrapey" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans|Russo+One|Space+Mono" rel="stylesheet">
   <link rel="stylesheet" href="css/master.css" media="screen" title="no title" charset="utf-8">
 </head>
 
-<body class="blue-grey-text text-darken-1">
-  <div>
-    <nav class="cyan" role="navigation">
+<body class="blue-grey-text text-darken-2">
+  <div class="navbar-fixed">
+    <nav class="red darken-2" role="navigation">
       <div class="nav-wrapper container">
-        <a href="#!" class="brand-logo"><i class="icon ion-erlenmeyer-flask-bubbles"></i></a>
+        <a href="index.html" class="brand-logo"><i class="icon ion-erlenmeyer-flask-bubbles"></i></a>
         <a href="#" data-activates="side-nav" class="button-collapse"><i class="icon ion-android-add"></i></a>
         <ul class="right hide-on-med-and-down">
           <li><a href="#bio">About</a></li>
@@ -27,65 +27,101 @@
         <ul class="side-nav center" id="side-nav">
           <!-- <li><a href="#"><i class="icon ion-social-github"></i></a></li>
           <li><a href="#"><i class="icon ion-social-twitter"></i></a></li> -->
-          <div class="section">
+          <div class="section-lg-top">
             <li>
-              <a href="#">About</a>
+              <a href="#bio">About</a>
             </li>
             <li>
-              <a href="#">Skills</a>
+              <a href="#skills">Skills</a>
             </li>
             <li>
-              <a href="#">Work</a>
+              <a href="#work">Work</a>
             </li>
           </div>
         </ul>
       </div>
     </nav>
   </div>
-
-  <div class="section container" id="bio">
+  <div class="section-lg-top container valign-wrapper" id="bio">
     <div class="row">
-      <div class="col s12 m4 l4 center">
-        <img class="circle responsive-img" width="300px" src="images/zakaria-profile-web.png" alt="" />
-
+      <div class="col s12 m12 l5 center">
+        <div class="section-lg-top valign">
+          <img class="circle responsive-img" width="300px" src="images/zakaria-profile-web.png" alt="" />
+        </div>
       </div>
-      <div class="col s12 m8 l8">
-        <h1 class="header blue-grey-text text-darken-3 center">Zak Sudo</h1>
-        <p>
-          I am a tech and web technologies enthusiast. In love with javascript and it's prototypal OOP approach.
-        </p>
-        <blockquote>
-          I don't go on dates. I don't go clubbing. I don't care about celebrity hookups or which sports team just won. My universe exists entirely within computers. <em>L$user, Algorithm: The Hacker Movie</em>
-        </blockquote>
+      <div class="col s12 m12 l7">
+        <div class="valign">
+          <h1 class="header blue-grey-text text-darken-3 center valign">Zak Sudo</h1>
+          <div class="divider"></div>
+          <div class="row center">
+            <div class="col s12 m4 l3 center">
+              <p>
+                <i class="icon ion-social-github red-text"></i> zakhttp
+              </p>
+            </div>
+            <div class="col s12 m4 l4 center">
+              <p>
+                <i class="icon ion-social-twitter red-text"></i> @zakhttp
+              </p>
+            </div>
+            <div class="col s12 m4 l5 center">
+              <p>
+                <i class="icon ion-android-send red-text"></i> zakhttp@gmail.com
+              </p>
+            </div>
+          </div>
+          <p class="center">
+            I am a tech and web technologies enthusiast. In love with javascript and it's prototypal OOP approach.
+          </p>
+          <div>
+            <blockquote class="blue-grey-text text-lighten-1">
+              I don't go on dates. I don't go clubbing. I don't care about celebrity hookups or which sports team just won.
+              <br />My universe exists entirely within computers.
+              <br />
+              <span class="blockquote-source">L$user, Algorithm: The Hacker Movie</span>
+            </blockquote>
+          </div>
+        </div>
       </div>
     </div>
   </div>
-  <div class="divider"></div>
-  <div class="section container center" id="skills">
+  <div class="section-lg container center" id="skills">
     <h2 class="blue-grey-text text-darken-3">Skills</h2>
-    <div class="row">
+    <div class="divider"></div>
+    <div class="row section-lg-top">
       <div class="center col s12 m6 l3">
-        <i class="large icon ion-social-html5 orange-text text-darken-3"></i>
+        <i class="medium icon ion-social-html5 orange-text text-darken-3"></i>
         <h5>HTML</h5>
       </div>
       <div class="center col s12 m6 l3">
-        <i class="large icon ion-social-css3 light-blue-text"></i>
+        <i class="medium icon ion-social-css3 light-blue-text"></i>
         <h5>CSS</h5>
       </div>
       <div class="center col s12 m6 l3">
-        <i class="large icon ion-social-javascript yellow-text"></i>
+        <i class="medium icon ion-social-javascript yellow-text"></i>
         <h5>JAVASCRIPT</h5>
       </div>
       <div class="center col s12 m6 l3">
-        <i class="large icon ion-social-nodejs light-green-text"></i>
+        <i class="medium icon ion-social-nodejs light-green-text"></i>
         <h5>NODE JS</h5>
       </div>
     </div>
   </div>
-  <div class="divider"></div>
-  <div class="section container center" id="work">
+  <div class="section-lg cyan lighten-5">
+    <div class="container">
+      <blockquote class="blue-grey-text text-darken-1">
+        Generally, the craft of programming is the factoring of a set of requirements into a a set of functions and data structures.
+        <br/>
+        <span class="blockquote-source">Douglas Crockford, Javascript: The Good Parts</span>
+      </blockquote>
+    </div>
+
+  </div>
+  <div class="section-lg container center" id="work">
     <h2 class="blue-grey-text text-darken-3">Work</h2>
-    <div class="row">
+    <div class="divider"></div>
+
+    <div class="row section-lg-top">
       <div class="col s12 m6 l4">
         <div class="card hoverable">
           <div class="card-image waves-effect waves-light waves-block">
