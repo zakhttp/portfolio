@@ -1,1 +1,12 @@
 
+html {
+  font-family: 'Open Sans', sans-serif;
+}
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Russo One', sans-serif;
+}
+blockquote {
+  border-left: 5px solid #00bcd4;
+  font-family: 'Arrapey', serif;
+  font-size: 16px;
+}
