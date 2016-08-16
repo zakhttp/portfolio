@@ -18,12 +18,12 @@ var profileData = {
     'php',
     'laravel',
   ],
-  bio: "I am a tech and web technologies enthusiast. In love with javascript and it's prototypal OOP approach. ",
+  bio: "I am a web craftsman and tech enthusiast. In love with javascript and it's prototypal OOP approach. ",
   tagline: 'I do what i do for love. Anything else is a reduction of my humanity.',
   quotes: [
     {
       quote: "I don't go on dates. I don't go clubbing. I don't care about celebrity hookups or which sports team just won. My universe exists entirely within computers.",
-      source: 'L$user, Algorithm: The Hacker Movie'
+      source: 'LU$er, Algorithm: The Hacker Movie'
     },
     {
       quote: "Any concept you have a world that doesn't involve electronics is naive. Of course, you can manufacture a reality to suit your delusions if you like. What difference does that make to me? It's just one less person I have to deal with. Because, if that's your choice, then you are irrelevant. You cease to exist in any meaningful way except as extremely low-hanging fruit.",

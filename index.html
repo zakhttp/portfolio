@@ -15,8 +15,8 @@
   <div class="navbar-fixed">
     <nav class="red darken-2" role="navigation">
       <div class="nav-wrapper container">
-        <a href="index.html" class="brand-logo"><i class="icon ion-erlenmeyer-flask-bubbles"></i></a>
-        <a href="#" data-activates="side-nav" class="button-collapse"><i class="icon ion-android-add"></i></a>
+        <a href="index.html" class="brand-logo hide-on-med-and-down"><i class="icon ion-erlenmeyer-flask-bubbles"></i></a>
+        <a href="#" data-activates="side-nav" class="button-collapse"><i class="icon ion-android-menu"></i></a>
         <ul class="right hide-on-med-and-down">
           <li><a href="#bio">About</a></li>
           <li><a href="#skills">Skills</a></li>
@@ -24,28 +24,35 @@
           <li><a href="https://github.com/zakhttp" target="_blank"><i class="icon ion-social-github"></i></a></li>
           <li><a href="https://twitter.com/zakhttp" target="_blank"><i class="icon ion-social-twitter"></i></a></li>
         </ul>
-        <ul class="side-nav center" id="side-nav">
-          <!-- <li><a href="#"><i class="icon ion-social-github"></i></a></li>
-          <li><a href="#"><i class="icon ion-social-twitter"></i></a></li> -->
-          <div class="section-lg-top">
-            <li>
-              <a href="#bio">About</a>
-            </li>
-            <li>
-              <a href="#skills">Skills</a>
-            </li>
-            <li>
-              <a href="#work">Work</a>
-            </li>
+        <div class="container section side-nav center grey lighten-4" id="side-nav">
+          <div class="container section logo">
+            <a href="index.html"><i class="icon ion-erlenmeyer-flask-bubbles large  center red-text text-darken-2">
+              </i></a>
           </div>
-        </ul>
+          <ul>
+            <!-- <li><a href="#"><i class="icon ion-social-github"></i></a></li>
+            <li><a href="#"><i class="icon ion-social-twitter"></i></a></li> -->
+            <div class="section-lg">
+              <li>
+                <a href="#bio">About</a>
+              </li>
+              <li>
+                <a href="#skills">Skills</a>
+              </li>
+              <li>
+                <a href="#work">Work</a>
+              </li>
+            </div>
+          </ul>
+        </div>
+
       </div>
     </nav>
   </div>
-  <div class="section-lg-top container valign-wrapper" id="bio">
+  <div class="section-lg container valign-wrapper" id="bio">
     <div class="row">
       <div class="col s12 m12 l5 center">
-        <div class="section-lg-top valign">
+        <div class="valign">
           <img class="circle responsive-img" width="300px" src="images/zakaria-profile-web.png" alt="" />
         </div>
       </div>
@@ -66,27 +73,30 @@
             </div>
             <div class="col s12 m4 l5 center">
               <p>
-                <i class="icon ion-android-send red-text"></i> zakhttp@gmail.com
+                <i class="icon ion-paper-airplane red-text"></i> zakhttp@gmail.com
               </p>
             </div>
           </div>
           <p class="center">
-            I am a tech and web technologies enthusiast. In love with javascript and it's prototypal OOP approach.
+            I am a web craftsman and tech enthusiast. In love with javascript and it's prototypal OOP approach.
           </p>
-          <div>
-            <blockquote class="blue-grey-text text-lighten-1">
-              I don't go on dates. I don't go clubbing. I don't care about celebrity hookups or which sports team just won.
-              <br />My universe exists entirely within computers.
-              <br />
-              <span class="blockquote-source">L$user, Algorithm: The Hacker Movie</span>
-            </blockquote>
-          </div>
         </div>
       </div>
     </div>
   </div>
+  <div class="section-lg grey lighten-5">
+    <div class="container">
+      <blockquote class="blue-grey-text text-darken-1">
+        I don't go on dates. I don't go clubbing. I don't care about celebrity hookups or which sports team just won.
+        <br />My universe exists entirely within computers.
+        <br />
+        <span class="blockquote-source">LU$er, Algorithm: The Hacker Movie</span>
+      </blockquote>
+    </div>
+
+  </div>
   <div class="section-lg container center" id="skills">
-    <h2 class="blue-grey-text text-darken-3">Skills</h2>
+    <h2 class="blue-grey-text text-darken-3"><i class="icon ion-hammer red-text"></i> Skills</h2>
     <div class="divider"></div>
     <div class="row section-lg-top">
       <div class="center col s12 m6 l3">
@@ -107,7 +117,7 @@
       </div>
     </div>
   </div>
-  <div class="section-lg cyan lighten-5">
+  <div class="section-lg grey lighten-5">
     <div class="container">
       <blockquote class="blue-grey-text text-darken-1">
         Generally, the craft of programming is the factoring of a set of requirements into a a set of functions and data structures.
@@ -118,7 +128,7 @@
 
   </div>
   <div class="section-lg container center" id="work">
-    <h2 class="blue-grey-text text-darken-3">Work</h2>
+    <h2 class="blue-grey-text text-darken-3"><i class="icon ion-code red-text"></i> Work</h2>
     <div class="divider"></div>
 
     <div class="row section-lg-top">
