@@ -42,30 +42,38 @@ var profileData = {
   projects: [
     {
       name: 'idesign interiors',
-      url: 'http://idesignuae.com',
+      githubUrl: 'http://idesignuae.com',
+      previewUrl: '',
       type: 'wordspress',
       imagrUrl: '',
+      altText: '',
       description: ''
     },
     {
       name: 'super mario frogger',
-      url: 'https://github.com/zakhttp/super-mario-frogger',
+      githubUrl: 'https://github.com/zakhttp/super-mario-frogger',
+      previewUrl: '',
       type: 'javascript',
-      imagrUrl: '',
-      description: ''
+      imagrUrl: 'images/super-mario-project-card.jpg',
+      altText: 'Super Mario',
+      description: "This a reproduction of the 80's frogger game with a Super Mario Bros flavor using a simple javascript game engine."
     },
     {
       name: 'shippey photography',
-      url: 'http://shippeyphotography.com',
+      githubUrl: 'http://shippeyphotography.com',
+      previewUrl: '',
       type: 'wordpress',
       imagrUrl: '',
+      altText: '',
       description: ''
     },
     {
       name: 'weather app',
-      url: 'https://github.com/zakhttp/weather-app',
+      githubUrl: 'https://github.com/zakhttp/weather-app',
+      previewUrl: '',
       type: 'react native',
       imagrUrl: '',
+      altText: '',
       description: ''
     },
   ]
